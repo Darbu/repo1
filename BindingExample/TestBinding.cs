@@ -9,6 +9,7 @@ namespace BindingExample
 {
     class TestBinding : INotifyPropertyChanged
     {
+        //3
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(PropertyChangedEventArgs e)
         {
